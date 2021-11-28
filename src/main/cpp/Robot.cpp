@@ -14,7 +14,9 @@ void Robot::AutonomousInit() {}
 void Robot::AutonomousPeriodic() {}
 
 void Robot::TeleopInit() {}
-void Robot::TeleopPeriodic() {}
+void Robot::TeleopPeriodic() {
+    // align to target and shoot
+}
 
 void Robot::DisabledInit() {}
 void Robot::DisabledPeriodic() {}
