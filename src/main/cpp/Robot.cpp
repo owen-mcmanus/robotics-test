@@ -16,6 +16,7 @@ void Robot::AutonomousPeriodic() {}
 void Robot::TeleopInit() {}
 void Robot::TeleopPeriodic() {
     // align to target and shoot
+    // add pid tuning
 }
 
 void Robot::DisabledInit() {}
